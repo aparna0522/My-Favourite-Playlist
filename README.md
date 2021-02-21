@@ -6,3 +6,5 @@ Dockerized the node based application.
 <b> MongoDB Application: </b>
 Connected the node.js application with MongoDB at the backend to store and create database of the users. 
 Dockerized the resultant application.
+
+Project inspired from: https://itnext.io/dockerize-a-node-js-app-with-vs-code-bd471710dc22
