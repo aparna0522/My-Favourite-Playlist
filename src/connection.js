@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const User = require("./User.model");
-const connection = "mongodb+srv://aparna:projecteduhub@cluster0.7ktgy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const connection = "<CONNECTION_STRING_FOR_THE_CLUSTER>";
 const connectDb = () => {
  return mongoose.connect(connection);
 };
